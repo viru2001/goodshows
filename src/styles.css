@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&display=swap");
+
+:root {
+  --white: #fff;
+}
+.heading-center {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+nav {
+  background: linear-gradient(59deg, #3a6073, #16222a);
+  color: var(--white);
+}
+.title {
+  text-align: center;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  margin: 0.4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: var(--white);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  box-shadow: 0 1px 10px rgba(146, 161, 176, 0.35);
+}
+
+.list-unoredered {
+  list-style: none;
+}
+.list-element {
+  background-color: var(--white);
+  box-shadow: 0 1px 10px rgba(146, 161, 176, 0.35);
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.movie-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
